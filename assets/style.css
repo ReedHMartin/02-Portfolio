@@ -1,0 +1,38 @@
+
+
+
+html, body {    
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between
+}
+
+h2 {
+    justify-content: center;
+}
+
+
+li {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin: 40px;
+}
+
+.header-text {
+    padding: 5%;
+    
+}
+
+.profilepic {
+    
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+
+}
