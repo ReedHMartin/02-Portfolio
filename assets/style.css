@@ -36,3 +36,27 @@ li {
     margin: 50px;
 
 }
+
+
+section {
+    padding: 100px
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+
+
+.project1 {
+    height: 300px;
+    width: 100px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between
+}
