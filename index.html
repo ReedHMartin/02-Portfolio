@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="assets/style.css">
     <title>Reed Martin Portfolio</title>
 </head>
-
+<!-- Header with profile pic -->
 <body>
-    <header>        
+    <header>
         <img src="assets/profile-pic.jpg" class="profilepic">
         <div class="header-text">
             <h1>Reed Martin</h1>
             <h2>Portfolio</h2>
         </div>
+        <!-- Nav links to page sections -->
         <nav>
             <ul>
                 <li>
@@ -26,58 +27,53 @@
                 </li>
                 <li>
                     <a href="#contactme">Contact Me</a>
-                </li>                
+                </li>
             </ul>
         </nav>
     </header>
-
+<!-- Main page content -->
     <main>
-        <section class="">
-            <div class=""></div>
-            <h2 class="">Welcome to my profile page!</h2>
+        <!-- Page heading -->
+        <h2>Welcome to my profile page!</h2>
+        <!-- About me section -->
+        <h2 id="aboutme">About Me</h2>
+        <section>
+            <p>After 17 years in the aviation industry, I decided it was time for a career change. Back in highschool I made a few basic websites and I've always been into computers and tech so I thought I might enjoy a career in coding. I started the full stack coding bootcamp with Case Western Reserve University. I'm looking forward to completing the bootcamp in the spring and starting my career in coding.</p>
         </section>
-
-        <section id="aboutme">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eros ipsum, aliquet ac arcu porta, consequat mollis sapien. Curabitur facilisis porta sodales. Donec vulputate, enim a semper dictum, velit erat sodales nisl, a mattis tortor justo et erat. Curabitur aliquam ipsum dolor, non pellentesque magna pulvinar et. Donec vulputate venenatis ligula commodo rutrum. Nunc dapibus dui vitae sapien pulvinar rhoncus. Vivamus scelerisque eros dui, a venenatis nibh pellentesque eu. In ac lectus eget risus venenatis interdum at at nisl. Proin nec metus augue. Aliquam erat volutpat.</p>
-        </section>
-
-        
-
+<!-- Projects section -->
+        <h2>My work</h2>
         <section id="mywork">
-            <h2>My work</h2>
-            <div id="project1">
-                <a href="placeholder"><img src="placeholder" alt="placeholder1" class="placeholder"></a>
+            <div class="row">
+                <div class="column">
+                    <a href="https://reedhmartin.github.io/Horiseon-LandingPage/">
+                        <img src="assets/horiseon.png" title="Horiseon Landing Page"
+                            alt="A render of the Horiseon company's landing page.">
+                </div>
 
+                </a>
+                <div class="column small">
+                    <a href="placeholder" onclick="return false;">
+                        <img src="assets/coming-soon.jpg" title="Coming soon!"
+                            alt="A placeholder image until another project is added.">
+                    </a>
 
-            </div>
-            <div class="projects">
-                <a href="placeholder"><img src="placeholder" alt="placeholder2" class="placeholder"></a>
-                
-                <a href="placeholder"><img src="placeholder" alt="placeholder3" class="placeholder"></a>
+                    <a href="placeholder" onclick="return false">
+                        <img src="assets/coming-soon.jpg" title="Coming soon!"
+                            alt="A placeholder image until another project is added.">
+                    </a>
+                </div>
+
             </div>
         </section>
-
-
-
-
+<!-- Contact me section -->
         <section id="contactme">
             <h2>Contact Me</h2>
-                <a href="mailto:reedhmartin@gmail.com" ">e-mail</a>
-            
-        </section>
-
-
-
-
-               
+            <a href="mailto:reedhmartin@gmail.com" ">e-mail</a>            
+        </section>               
     </main>
-
+    <!-- Footer section -->
     <footer>
         <h3>Created by Reed Martin using HTML and CSS.</h3>
-
     </footer>
-
 </body>
-
 </html>

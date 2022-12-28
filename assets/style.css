@@ -1,62 +1,54 @@
-
-
-
+/* Page Styling */
 html, body {    
-    margin: 0;
+    margin: 10;
     padding: 0;
 
 }
-
+/* style header */
 header {
     display: flex;
     justify-content: space-between
 }
-
+/* Style page sections */
 h2 {
+    display: flex;
     justify-content: center;
 }
-
+/* Style nav links */
 li {
     margin-top: 20px;
-    margin-right: 50px;
     margin: 40px;
 }
-
-.header-text {
-    padding: 5%;
-    
-}
-
-.profilepic {
-    
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin: 50px;
-
-}
-
-
-section {
-    padding: 100px
-}
-
+/* Style footer */
 footer {
     width: 100%;
     text-align: center;
     margin-top: auto;
 }
-
-
-
-
-.project1 {
-    height: 300px;
-    width: 100px;
+/* Style header test location and padding */
+.header-text {
+    padding: 5%;
+    text-align: center;
 }
-
-.projects {
+/* Style profile pic shape and location */
+.profilepic {    
+    border-radius: 50%;/*Makes profile pic a circle*/
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+/* Styles project thumbnail location */
+.row {
     display: flex;
-    justify-content: space-between
-}
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
 
+.column {
+    max-width: 50%;
+    padding: 0 4px;
+  }
+/* Centers contact info */
+#contactme {
+    text-align: center
+}
