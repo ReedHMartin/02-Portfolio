@@ -14,7 +14,7 @@ The intent of this project was to create a profile page using HTML and CSS to In
 
 The page should render as follows:
 
-![alt text](assets/heriseon.png)
+![Page Demo](assets/horiseon.png)
 
 
 
