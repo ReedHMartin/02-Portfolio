@@ -2,7 +2,6 @@
 html, body {    
     margin: 10;
     padding: 0;
-
 }
 /* style header */
 header {
@@ -48,6 +47,7 @@ footer {
     max-width: 50%;
     padding: 0 4px;
   }
+
 /* Centers contact info */
 #contactme {
     text-align: center
